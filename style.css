@@ -2,7 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: aqua;
+    background-color: rgb(66, 232, 108);
 }
 
 .input-div {
@@ -27,6 +27,10 @@ body {
     margin-top: 2rem;
     animation-name: result;
     animation-duration: 0.5s;
+}
+
+.display-answer {
+    margin-top: 20px;
 }
 
 @keyframes result {
