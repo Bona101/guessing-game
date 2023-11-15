@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aqua;
+}
+
+.input-div {
+    margin-top: 1rem;
+}
+
+.text-field {
+    border-radius: 1rem;
+    height: 1.4rem;
+}
+
+.check {
+    padding: 0.3rem 0.6rem;
+    border-radius: 1rem;
+}
+
+.none {
+    display: none;
+}
+
+.win, .lose {
+    margin-top: 2rem;
+    animation-name: result;
+    animation-duration: 0.5s;
+}
+
+@keyframes result {
+    from {
+        transform: translateY(-5px);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
