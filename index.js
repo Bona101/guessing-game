@@ -22,8 +22,12 @@ check.addEventListener("click", () => {
         win.classList.add("none");
         if (+guess > answer){
             displayAnswer.textContent = `Too High. ${round + 1}/3 attempts`;
+            lose.classList.add("none");
+            win.classList.add("none");
         } else {
             displayAnswer.textContent = `Too low. ${round + 1}/3 attempts`;
+            lose.classList.add("none");
+            win.classList.add("none");
         }
 
         
